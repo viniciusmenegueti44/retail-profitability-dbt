@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: retail
+    database: RetailDB
+    schema: dbo
+    tables:
+      - name: raw_vendas
+      - name: raw_produtos
+      - name: raw_custos_logistica
